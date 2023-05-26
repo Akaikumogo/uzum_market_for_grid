@@ -1,0 +1,135 @@
+.header{
+	.nav{
+		.top{
+			background: #f4f5f5;
+			margin: 0 auto;
+			.top-nav{
+				width: 1250px;
+				height: 30px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				color: #62656a;
+				margin: 0 auto;
+				.left{
+					width:25%;
+					.list{
+						width: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						li{
+							list-style: none;
+						}
+					}
+				}
+				.center{
+					width: 40%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.right{
+					width: 35%;
+					.list{
+						width: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						li{
+							list-style: none;
+						}
+					}
+				}
+			}	
+		}
+		.bottom{
+			.bottom-nav{
+				width: 1250px;
+				height: 120px;
+				margin: 0 auto;
+				.tepa{
+					width: 100%;
+					height: 90px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					.logo{
+						width: 20%;
+						height: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+					}
+					.button{
+						width: 10%;
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						button{
+							width: 100px;
+							height: 40px;
+							color:#33c;
+							border: none;
+							border-radius: 5px;
+							background:rgba(49,49,196,0.1) ;
+						}
+					}
+					.search{
+						width: 45%;
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						position: relative;
+						.searchbar{
+							width: 100%;
+							height: 50%;
+						}
+						.search-button{
+							width: 48px;
+							height: 42px;
+							border: none;
+							position: absolute;
+							top: 23px;
+							right: 1px;
+							cursor: pointer;
+						}
+					}
+					.profil{
+						width: 20%;
+						height: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						ul{
+							width: 100%;
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							li{
+								list-style: none;
+							}
+						}
+					}
+				}
+				.past{
+					width: 100%;
+					height: 15px;
+					ul{
+						width: 100%;
+						height: 100%;
+						display: flex;
+						align-items: center;
+						justify-content:space-between;
+						li{
+							list-style: none;
+							color: #62656a;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.main{
+	width: 1250px;
+	margin: 0 auto;
+	border: 1px solid ;
+	li{
+		font-size:16pt;
+		font-weight: bolder;
+	}
+	.mahsulotlar{
+		width: 100%;
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+		grid-template-columns: 250px 250px 250px 250px;
+		grid-row-gap: 40px;
+		column-gap: 60px;
+		justify-content: center;
+		.mahsulot{
+			width: 240px;
+			height: 450px;
+			border-radius: 10px;
+			background: #e5e6eb;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-item:center;
+			padding: 20px;
+			img{
+				width: 200px;
+				height: 300px;
+				border:10px;
+				padding-bottom:10px ;
+			}
+			p{
+				width: 100%;
+			}
+		}
+	}
+}
